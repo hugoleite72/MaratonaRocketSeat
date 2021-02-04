@@ -5,55 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dev.finance$</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Dev.finance$</h1>
+        <h1 id="logo">Dev.finance$</h1>
     </header>
 
-    <main>
+    <main class="container">
 
-        <section>
-            <div>
-                <h2>balanço</h2>
+        <section id="balance">
+            <h2>Balanço</h2>
+            <div class="card">
+                <h3>Entradas</h3>
                 <p>R$5000,00</p>
             </div>
-            <div>
+            <div class="card">
                 <h3>saídas</h3>
                 <p>2000,00</p>
             </div>
-            <div>
+            <div class="cardTotal">
                 <h3>Total</h3>
                 <p>3000,00</p>
-            </div>            
+            </div>
         </section>
-        <section>
+        <section id="transaction">
             <h2>Transações</h2>
         </section>
-        
 
-        
-
-        <table>
+        <table id="data-table">
             <thead>
                 <tr>
-                    <th>Descricao</th>
-                    <th>Valor</th>
-                    <th>Data</th>
+                    <th class="description">Descricao</th>
+                    <th class="description">Valor</th>
+                    <th class="date">Data</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Luz</td>
-                    <td>R$500,00</td>
-                    <td>23/01/2021</td>
+                    <td class="description">Luz</td>
+                    <td class="income">R$500,00</td>
+                    <td class="date">23/01/2021</td>
                 </tr>
                 <tr>
-                    <td>Criação de WebSite</td>
-                    <td>R$5000,00</td>
-                    <td>31/01/2021</td>
+                    <td class="description">Criação de WebSite</td>
+                    <td class="expense">R$5000,00</td>
+                    <td class="date">31/01/2021</td>
                 </tr>
                 <tr>
                     <td>Alugel</td>
